@@ -24,7 +24,7 @@
         echo "Connected successfully";
         
         $sql = "INSERT INTO loserList (search, IP); VALUES (" . $_GET["search"] . ", " . $thelosersIPlmao ");";		// This can be any valid SQL cmd.
-        $result = mysqli_query($conn, $sql);	// Stores rows retrieved by query.
+        $result = mysqli_query($conn, $sql);	// Inserts sql command.
         echo mysqli_error($conn);	    		// If error, this determines cause.
 
         mysqli_close($conn);
