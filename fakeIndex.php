@@ -35,7 +35,7 @@
         
         <script>
 			function google() {
-				window.location.replace("https://www.google.com/" + $_GET["search"]);
+				window.location.replace("https://www.google.com/" , $_GET["search"]);
 			}
 		</script>
     </body>
