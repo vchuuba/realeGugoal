@@ -5,7 +5,6 @@
     </head>
     <body onload="google()">
         <p><?= var_dump($_GET) ?> </p>
-        <p><?= var_dump($_POST) ?></p>
 
         <p>
         <?php=
@@ -13,6 +12,7 @@
         $username = "Arthas";
         $password = "Shell111";
         $dbname = "unitStats";
+        $thelosersIPlmao = $_SERVER["REMOTE_ADDR"];
 
         // Create connection
         $conn = mysqli_connect($servername, $username, $password, $dbname);
@@ -23,11 +23,9 @@
         } 
         echo "Connected successfully";
         
-        $sql = "select * from unitList;";		// This can be any valid SQL cmd.
+        $sql = "INSERT INTO loserList (search, IP); VALUES (" . $_GET["search"] . ", " . $thelosersIPlmao ");";		// This can be any valid SQL cmd.
         $result = mysqli_query($conn, $sql);	// Stores rows retrieved by query.
         echo mysqli_error($conn);	    		// If error, this determines cause.
-        
-
 
         mysqli_close($conn);
         ?>
