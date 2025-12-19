@@ -7,21 +7,10 @@
 	<body>
 		<p>henlo,, am reale Gugoal . Pl0x gib IP</p>
 
-		<form action="/fakeIndex.php">
-			<label for="fname">searhc here</label><br>
+		<form method="GET" action="/fakeIndex.php">
+			<label for="search">searhc here</label><br>
 			<input type="text" id="search" name="search"><br>
-			<button onclick="google()"> click me to searhc</button>
+			<input type="submit" value="searhc">
 		</form>
-
-		
-
-		<p id="demo"></p>
-
-		<script>
-			function google() {
-				location.replace("www.google.com")
-			}
-		</script>
-
 	</body>
 </html>
