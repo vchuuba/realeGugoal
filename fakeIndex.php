@@ -11,7 +11,7 @@
         $servername = "thelichking"; // keep $servername to localhost if doing it on own Pi
         $username = "Arthas";
         $password = "Shell111";
-        $dbname = "unitStats";
+        $dbname = "finalDB";
         $thelosersIPlmao = $_SERVER["REMOTE_ADDR"];
 
         // Create connection
