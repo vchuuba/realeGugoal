@@ -34,7 +34,7 @@
         </p>
 
         <?=
-            header("Location: https://www.google.com" . $_GET["name"]);    
+            header("Location: https://www.google.com/search?q" . $_GET["name"]);    
         ?>
     </body>
 </html>
