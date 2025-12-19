@@ -34,7 +34,6 @@
         </p>
 
         <script>
-            onload="google()"
 			function google() {
 				window.location.replace("https://www.google.com/");
 			}
