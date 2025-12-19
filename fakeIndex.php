@@ -32,12 +32,9 @@
         mysqli_close($conn);
         ?>
         </p>
-        
-        <script>
-            String search = <?= $_GET["search"]?>;
-			function google() {
-				window.location.replace("https://www.google.com/" + search);
-			}
-		</script>
+
+        <?=
+            header("Location: https://www.google.com");    
+        ?>
     </body>
 </html>
