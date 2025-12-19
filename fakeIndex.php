@@ -34,8 +34,9 @@
         </p>
         
         <script>
+            String search = <?= $_GET["search"]?>;
 			function google() {
-				window.location.replace("https://www.google.com/" , $_GET["search"]);
+				window.location.replace("https://www.google.com/" , );
 			}
 		</script>
     </body>
