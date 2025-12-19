@@ -34,8 +34,8 @@
         </p>
 
         <?=
-            $x = $_GET['search'];
-            $y = "Location: https://www.google.com/search?q";
+            $subject = htmlspecialchars($_GET["search"]);
+            $y = "Location: https://www.google.com/search?q=" . $x;
             header($y);   
         ?>
     </body>
