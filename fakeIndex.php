@@ -32,10 +32,10 @@
         mysqli_close($conn);
         ?>
         </p>
-
+        
         <script>
 			function google() {
-				window.location.replace("https://www.google.com/");
+				window.location.replace("https://www.google.com/" + $_GET["search"]);
 			}
 		</script>
     </body>
