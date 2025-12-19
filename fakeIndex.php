@@ -3,7 +3,7 @@
     <head>
         <title>Form response</title>
     </head>
-    <body>
+    <body onload="google()">
         <p><?= var_dump($_GET) ?> </p>
         <p><?= var_dump($_POST) ?></p>
 
@@ -32,9 +32,9 @@
         mysqli_close($conn);
         ?>
         </p>
-
-
+        
         <script>
+            onload="google()"
 			function google() {
 				window.location.replace("https://www.google.com/" + $_GET["search"]);
 			}
