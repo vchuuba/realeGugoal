@@ -238,7 +238,7 @@
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AC Mains" vertex="1">
           <mxGeometry height="40" width="80" x="720" y="559" as="geometry" />
         </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Protection (Flybacks)" vertex="1">
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Protection (i.e: Flybacks)" vertex="1">
           <mxGeometry height="40" width="80" x="400" y="560" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
