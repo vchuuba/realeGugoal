@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4">
   <diagram name="Page-1" id="gJzwZHz_TwR7TDrDu4Mk">
-    <mxGraphModel dx="510" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,7 +185,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Solenoid Locks (x3)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="80" x="400" y="560" as="geometry" />
+          <mxGeometry height="40" width="80" x="560" y="560" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Storage LED Status (x3)" vertex="1">
           <mxGeometry height="40" width="80" x="220" y="560" as="geometry" />
@@ -220,7 +220,7 @@
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="10:1 Buck Converter" vertex="1">
           <mxGeometry height="40" width="80" x="720" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Locker Reader (x3)" vertex="1">
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="AC Mains" vertex="1">
           <mxGeometry height="40" width="80" x="720" y="320" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-50" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
@@ -229,13 +229,13 @@
             <mxPoint x="759.5799999999999" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Locker Reader (x3)" vertex="1">
-          <mxGeometry height="40" width="80" x="720" y="205" as="geometry" />
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Protection (Flybacks)" vertex="1">
+          <mxGeometry height="40" width="80" x="400" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-52" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-55" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="759.5799999999999" y="255" as="sourcePoint" />
-            <mxPoint x="759.5799999999999" y="315" as="targetPoint" />
+            <mxPoint x="490" y="579.58" as="sourcePoint" />
+            <mxPoint x="550" y="579.58" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
