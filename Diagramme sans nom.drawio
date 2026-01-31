@@ -306,7 +306,7 @@
             <mxPoint x="59.58000000000001" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0ExKii976Jug1fPtHY62-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="2.1. Alarm" vertex="1">
+        <mxCell id="0ExKii976Jug1fPtHY62-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;2.1. Detection&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="100" x="10" y="519" as="geometry" />
         </mxCell>
       </root>
