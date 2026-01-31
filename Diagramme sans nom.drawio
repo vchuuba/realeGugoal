@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.4">
   <diagram name="Page-1" id="gJzwZHz_TwR7TDrDu4Mk">
-    <mxGraphModel dx="765" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="942" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,7 +14,7 @@
           <mxGeometry height="210" width="220" x="370" y="50" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="300" width="460" x="10" y="340" as="geometry" />
+          <mxGeometry height="340" width="460" x="10" y="340" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
           <mxGeometry height="140" width="280" x="10" y="150" as="geometry" />
@@ -46,9 +46,6 @@
         <mxCell id="t-kLlGeQdN9GzltXGqna-22" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Security Logic Processing" vertex="1">
           <mxGeometry height="40" width="100" x="190" y="350" as="geometry" />
         </mxCell>
-        <mxCell id="t-kLlGeQdN9GzltXGqna-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Locker Reader" vertex="1">
-          <mxGeometry height="40" width="80" x="200" y="470" as="geometry" />
-        </mxCell>
         <mxCell id="t-kLlGeQdN9GzltXGqna-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Client Card Reader" vertex="1">
           <mxGeometry height="40" width="80" x="20" y="240" as="geometry" />
         </mxCell>
@@ -77,24 +74,6 @@
         </mxCell>
         <mxCell id="t-kLlGeQdN9GzltXGqna-54" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Apache Web Server" vertex="1">
           <mxGeometry height="40" width="80" x="500" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Product Detection (x3)" vertex="1">
-          <mxGeometry height="40" width="80" x="20" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Locker Security Alarm" vertex="1">
-          <mxGeometry height="40" width="80" x="20" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="59.58000000000001" y="400" as="sourcePoint" />
-            <mxPoint x="59.58000000000001" y="460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="300" y="489.58" as="sourcePoint" />
-            <mxPoint x="360" y="489.58" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -198,21 +177,6 @@
             <mxPoint x="360" y="89.58000000000011" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Relay Switches (x3)" vertex="1">
-          <mxGeometry height="40" width="80" x="380" y="469" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Solenoid Locks (x3)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="80" x="380" y="589" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Storage LED Status" vertex="1">
-          <mxGeometry height="40" width="80" x="200" y="590" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="239.57999999999998" y="520" as="sourcePoint" />
-            <mxPoint x="239.57999999999998" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="360" y="360" as="sourcePoint" />
@@ -261,20 +225,14 @@
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="Self-serve Terminal" vertex="1">
           <mxGeometry height="30" width="280" x="10" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="RFID Product Security System" vertex="1">
-          <mxGeometry height="30" width="460" x="10" y="640" as="geometry" />
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="RFID Product Storage Security" vertex="1">
+          <mxGeometry height="30" width="460" x="10" y="680" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-67" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="Power Supply Module" vertex="1">
           <mxGeometry height="30" width="260" x="550" y="640" as="geometry" />
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-68" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="Central Node" vertex="1">
           <mxGeometry height="30" width="220" x="370" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="419.58" y="519" as="sourcePoint" />
-            <mxPoint x="419.58" y="579" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="lwZ8tJ-bzcceOQZ40cBy-72" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Programming Component" vertex="1">
           <mxGeometry height="60" width="100" x="700" y="65" as="geometry" />
@@ -296,6 +254,60 @@
         </mxCell>
         <mxCell id="0ExKii976Jug1fPtHY62-4" parent="1" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.wireless_connection;rotation=-90;" value="" vertex="1">
           <mxGeometry height="30" width="25.2" x="454.79999999999995" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="0ExKii976Jug1fPtHY62-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="Client Authorization and Lock System" vertex="1">
+          <mxGeometry height="30" width="280" x="190" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="0ExKii976Jug1fPtHY62-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="180" width="280" x="190" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="t-kLlGeQdN9GzltXGqna-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Locker Reader" vertex="1">
+          <mxGeometry height="40" width="80" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="499.58" as="sourcePoint" />
+            <mxPoint x="360" y="499.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Relay Switches (x3)" vertex="1">
+          <mxGeometry height="40" width="80" x="380" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Solenoid Locks (x3)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="380" y="599" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Storage LED Status" vertex="1">
+          <mxGeometry height="40" width="80" x="200" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-31" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="239.57999999999998" y="530" as="sourcePoint" />
+            <mxPoint x="239.57999999999998" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="419.58" y="529" as="sourcePoint" />
+            <mxPoint x="419.58" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ExKii976Jug1fPtHY62-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="180" width="100" x="10" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RFID Product Detection (x3)" vertex="1">
+          <mxGeometry height="40" width="80" x="20" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Locker Security Alarm" vertex="1">
+          <mxGeometry height="40" width="80" x="20" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="lwZ8tJ-bzcceOQZ40cBy-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="59.58000000000001" y="400" as="sourcePoint" />
+            <mxPoint x="59.58000000000001" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0ExKii976Jug1fPtHY62-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;rounded=0;" value="Item Detection" vertex="1">
+          <mxGeometry height="30" width="100" x="10" y="519" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
